@@ -10,6 +10,10 @@
   margin-bottom: 20px;
 }
 
+.sub-content > a img{
+	border-radius: 4px;
+}
+
 .sub-content a{
   color: #000;
   text-decoration: none;
