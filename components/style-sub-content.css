@@ -1,6 +1,5 @@
 .sub-content {
   display: flex;
-  border: 1px solid red;
 }
 
 .sub-content > a{
