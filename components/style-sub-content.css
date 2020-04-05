@@ -1,0 +1,54 @@
+.sub-content {
+  display: flex;
+  border: 1px solid red;
+}
+
+.sub-content > a{
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.sub-content a{
+  color: #000;
+  text-decoration: none;
+}
+
+.sub-content a:hover{
+	color: #ff4500;
+}
+
+.sub-content .info > img{
+  border-radius: 50%;
+  opacity: 50%;
+}
+
+.sub-content .content h2{
+	margin-bottom: 12px;
+	font-weight: 1;
+}
+
+.sub-content .content p:first-of-type{
+	margin-bottom: 20px;
+	font-weight: 1;
+	color: #666;
+}
+
+.sub-content .info span:first-of-type{
+	vertical-align: super;
+	font-size: 12px;
+	color: #999;
+}
+
+.sub-content .info span:last-of-type{
+	float: right;
+	font-size: 12px;
+	color: #999;
+	line-height: 26px;
+}
+
+.sub-content .info > img:hover{
+  opacity: 0.9;
+}
