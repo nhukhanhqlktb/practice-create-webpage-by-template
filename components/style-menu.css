@@ -1,0 +1,28 @@
+.navbar{
+	background-color: #58257b;
+	display: flex;
+	margin-bottom: 20px;
+	border-radius: 3px;
+}
+.item-subject{  
+  padding: 6px 9px;
+  list-style: none;
+}
+
+.item-subject a{
+	display: block;
+ 	text-decoration: none;
+ 	color: #fff;
+}
+
+.item-subject img{
+	padding-right: 4px;
+	vertical-align: text-bottom;
+	width: 20px;
+	height: 20px;
+	filter: brightness(0) invert(1);/* chuyển màu file png*/
+}
+
+.item-subject a:hover{
+	color: #ff0;
+}
