@@ -1,6 +1,8 @@
 .sub-content {
   display: flex;
-  margin: 20px 0;
+  border-bottom: 1px solid #bbb;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .sub-content > a{
@@ -8,7 +10,6 @@
   width: 200px;
   height: 200px;
   margin-right: 20px;
-  margin-bottom: 20px;
 }
 
 .sub-content > a img{

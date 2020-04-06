@@ -4,29 +4,29 @@
 .navbar{
 	background-color: #58257b;
 	display: flex;
-	margin-bottom: 20px;
 	border-radius: 3px;
+	margin-bottom: 20px;
 	white-space: nowrap; /* Nội dung không xuống dòng*/
 }
-.item-subject{  
-  padding: 6px 9px;
+.navbar .item{  
   list-style: none;
 }
 
-.item-subject a{
+.navbar .item a{
 	display: block;
+  	padding: 6px 9px;
  	text-decoration: none;
  	color: #fff;
 }
 
-.item-subject img{
+.navbar .item img{
 	padding-right: 4px;
 	vertical-align: text-bottom;
 	width: 20px;
 	height: 20px;
-	filter: brightness(0) invert(1);/* chuyển màu file png*/
+	filter: brightness(0) invert(1);/* chuyển màu file png sang white*/
 }
 
-.item-subject a:hover{
+.navbar .item a:hover{
 	color: #ff0;
 }

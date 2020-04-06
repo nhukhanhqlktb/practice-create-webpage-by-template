@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8"/>
 	<title>Components</title>
-	<script src="https://kit.fontawesome.com/876546224e.js" crossorigin="anonymous"></script>
-	<link rel="stylesheet" type="text/css" href="./style-item-subject.css">
+	
+	<link rel="stylesheet" type="text/css" href="./general-style.css">
+	<link rel="stylesheet" type="text/css" href="./style-menu.css">
 	<link rel="stylesheet" type="text/css" href="./style-list-by-subject.css">
 	<link rel="stylesheet" type="text/css" href="./style-sub-content.css">
 	<link rel="stylesheet" type="text/css" href="./style-news.css">
 	<link rel="stylesheet" type="text/css" href="./style-slides.css">
 	<link rel="stylesheet" type="text/css" href="./style-adv.css">
-	<link rel="stylesheet" type="text/css" href="./style-menu.css">
-	<link rel="stylesheet" type="text/css" href="./style-button.css">
+	<link rel="stylesheet" type="text/css" href="./style-header.css">
 	<link rel="stylesheet" type="text/css" href="./style-footer.css">
-	<style type="text/css">
-		*{
-			font-family: arial, sans-serif;
-			box-sizing: border-box;
-			margin: 0;
-			padding: 0;
-		}
-	</style>
+	
 </head>
 <body>
-	<!-- component: item-subject -->
-	<li class="item-subject">
-	  <a href="#">
-	    <i class="fas fa-home"></i>
-	    Trang chủ
-	  </a>
-	</li>
-	<hr style="margin-bottom: 15px;">
+	<div class="container">
+		<!-- component: header -->
+		<div class="header">
+			<div class="logo"><img src="https://quantrimang.com/themes/default/images/logo.png"></div>		
+			<div class="form-search">
+				<div class="wrapform">
+				<form>
+					<input type="text" name="" placeholder="Tìm kiếm" />
+					<button><i class="fas fa-search"></i></button>
+				</form>
+				</div>
+			</div>
+			<div class="login"><a href="#">Đăng nhập</a></div>		
+		</div><!-- component: header -->
+
+		<!-- component: menu -->
+		<div class="main-menu">
+			<nav class="navbar">
+				<li class="item">
+				  <a href="#"><img src="https://st.quantrimang.com/photos/image/icon/home.png">Trang chủ</a>
+				</li>
+				<li class="item">
+				  <a href="#"><img src="https://st.quantrimang.com/photos/image/icon/lang-cong-nghe-64-size-24x24-znd.png">Làng công nghệ</a>
+				</li>
+				<li class="item">
+				  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/05/08/cong-nghe-moi-size-24x24-znd.png">Công nghệ</a>
+				</li>
+				<li class="item">
+				  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/05/08/khoa-hoc-size-24x24-znd.png">Khoa học</a>
+				</li>
+				<li class="item">
+				  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/05/08/cuoc-song-size-24x24-znd.png">Cuộc sống</a>
+				</li>
+			</nav><!-- component: menu -->
+		</div>
+	
 	<!-- component: list-by-subject -->
 	<ul class="list-by-subject">
   		<li class="item-subject">
@@ -44,8 +66,7 @@
 		      <span>Tấn công mạng</span>
 		    </a>
 	  </li>
-	</ul>
-	<hr style="margin-bottom: 15px;">
+	</ul>	<!-- component: list-by-subject -->
 	<!-- component: sub-content -->
 	<div class="sub-content">
 	  <a href="#"><img src="https://st.quantrimang.com/photos/image/2020/04/04/luong-khi-nha-kinh-tren-toan-cau-co-the-giam-xuong-muc-chua-tung-thay200.jpg" alt="#">
@@ -59,8 +80,7 @@
 	      <span>2 giờ trước</span>
 	    </p>
 	  </div>
-	</div>
-	<hr style="margin-bottom: 30px;">
+	</div><!-- component: sub-content -->
 	<!-- component: news -->
 	<li class="news">
 		<a href="#">
@@ -68,7 +88,12 @@
 			<p>Tình hình dịch viêm phổi ở Việt Nam hôm nay và thế giới 05/04/2020</p>
 		</a>
 	</li>
-	<hr style="margin-bottom: 50px;">
+	<li class="news">
+		<a href="#">
+			<img src="https://st.quantrimang.com/photos/image/2020/01/31/website-cap-nhat-tinh-hinh-dich-cum-vu-han-tren-toan-the-gioi200-size-80x80-znd.jpg">
+			<p>Tình hình dịch viêm phổi ở Việt Nam hôm nay và thế giới 05/04/2020</p>
+		</a>
+	</li>
 	<!-- component: slides -->
 	<div class="slides">
 		<a href="#">
@@ -80,62 +105,8 @@
 			</div>			
 		</a>
 	</div>
-	<hr style="margin-top: 50px;">
 	<!-- component: adv -->
-	<div class="adv">Nội dung quảng cáo</div>
-	<!-- component: menu -->
-	<nav class="navbar">
-			<li class="item-subject">
-			  <a href="#"><img src="https://st.quantrimang.com/photos/image/icon/home.png">Trang chủ</a>
-			</li>
-			<li class="item-subject">
-			  <a href="#"><img src="https://st.quantrimang.com/photos/image/icon/lang-cong-nghe-64-size-24x24-znd.png">Làng công nghệ</a>
-			</li>
-			<li class="item-subject">
-			  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/05/08/cong-nghe-moi-size-24x24-znd.png">Công nghệ</a>
-			</li>
-			<li class="item-subject">
-			  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/05/08/khoa-hoc-size-24x24-znd.png">Khoa học</a>
-			</li>
-			<li class="item-subject">
-			  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/05/08/cuoc-song-size-24x24-znd.png">Cuộc sống</a>
-			</li>
-			<li class="item-subject">
-			  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/05/06/tien-ich-online-size-24x24-znd.png">Tiện ích</a>
-			</li>
-			<li class="item-subject">
-			  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/05/08/ung-dung-64-size-24x24-znd.png">Ứng dụng</a>
-			</li>
-			<li class="item-subject">
-			  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/05/08/apple-64-size-24x24-znd.png">iPhonge</a>
-			</li>
-			<li class="item-subject">
-			  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/05/08/android-64-size-24x24-znd.png">Android</a>
-			</li>
-			<li class="item-subject">
-			  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/05/08/code-64-size-24x24-znd.png">Lập trình</a>
-			</li>
-			<li class="item-subject">
-			  <a href="#"><img src="https://st.quantrimang.com/photos/image/2019/07/11/Windows-10-size-24x24-znd.png">Window 10</a>
-			</li>
-	</nav>
-	<hr style="margin-top: 50px;">
-
-	<!-- component: header -->
-	<div class="header">
-		<div class="logo"><img src="https://quantrimang.com/themes/default/images/logo.png"></div>		
-		<div class="form-search">
-			<div class="wrapform">
-			<form>
-				<input type="text" name="" placeholder="Tìm kiếm" />
-				<button><i class="fas fa-search"></i></button>
-			</form>
-			</div>
-		</div>
-		<div class="login"><a href="#">Đăng nhập</a></div>		
-	</div>
-
-	<hr style="margin-top: 50px;">
+	<div class="adv"><p>Nội dung quảng cáo</p></div>	
 
 	<!-- component: footer -->
 	<div class="footer">
@@ -166,5 +137,8 @@
 			</p>
 		</div>
 	</div>
+
+	</div> <!-- container -->
+	<script src="https://kit.fontawesome.com/876546224e.js" crossorigin="anonymous"></script>
 </body>
 </html>

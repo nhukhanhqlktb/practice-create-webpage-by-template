@@ -1,4 +1,8 @@
 .adv {
+	display: flex;
 	height: 250px;
 	background: #eee;
+	margin-bottom: 20px;
+	justify-content: center;
+	align-items: center;
 }

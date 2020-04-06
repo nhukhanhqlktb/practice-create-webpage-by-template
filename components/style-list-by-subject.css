@@ -1,27 +1,28 @@
+.list-by-subject{
+  margin-bottom: 20px;
+}
 /* item-subject */
 .list-by-subject .item-subject{
   background-color: #58257b;
-  padding: 8px;
+  color: #fcf;
   list-style: none;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 }
 
 .list-by-subject .item-subject a{
   display: block;
+  padding: 8px;
   text-decoration: none;
   color: #fff;
 }
 
 .list-by-subject .item-subject i{
-  color: #fcf;
   font-size: 18px;
 }
-/* item-sub */
-.list-by-subject{
-  border: 1px solid #eee;
-}
 
+/* item-sub */
 .list-by-subject .item-sub{
-  padding: 6px;
   list-style: none;
 }
 
@@ -31,6 +32,7 @@
 
 .list-by-subject .item-sub a{
   display: block;
+  padding: 6px;
   text-decoration: none;
   color: #000;
 }

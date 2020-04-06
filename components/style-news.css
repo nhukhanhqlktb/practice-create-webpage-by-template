@@ -1,11 +1,12 @@
 .news {
 	list-style: none;
-	padding: 10px 0px;
-	border-bottom: 1px solid #ccc;	
+	border-bottom: 1px solid #bbb;
 }
 
 .news a{
 	display: flex;
+	padding-top: 10px;
+	padding-bottom: 15px;
 	text-decoration: none;
 	color: #666;
 	font-size: 14px;
