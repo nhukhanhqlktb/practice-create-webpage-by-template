@@ -38,3 +38,7 @@
 .list-by-subject .item-sub span{
   vertical-align: super;
 }
+
+.list-by-subject a:hover{
+  color: #ff4500;
+}

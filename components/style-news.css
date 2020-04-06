@@ -8,9 +8,11 @@
 	display: flex;
 	text-decoration: none;
 	color: #666;
+	font-size: 14px;
 }
 
 .news img{
+	width: 58px;
 	border-radius: 4px;
 	margin-right: 8px;
 }
@@ -18,4 +20,9 @@
 .news a:hover{
 	color: #ff4500;
 }
+
+.news a:hover{
+	color: #ff4500;
+}
+
 
