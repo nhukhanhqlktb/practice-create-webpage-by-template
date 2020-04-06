@@ -6,7 +6,7 @@
 	display: flex;
 	margin-bottom: 20px;
 	border-radius: 3px;
-	white-space: nowrap;
+	white-space: nowrap; /* Nội dung không xuống dòng*/
 }
 .item-subject{  
   padding: 6px 9px;
