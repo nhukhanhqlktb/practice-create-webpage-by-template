@@ -1,0 +1,52 @@
+.header {
+	display: flex;
+	align-items: center;
+}
+
+.header .logo{
+	width: 240px;
+}
+
+.header .form-search{
+	flex-grow: 1;
+}
+
+.header .wrapform{
+	min-width: 280px;
+	max-width: 500px;
+	margin-left: 50px;
+	position: relative;
+}
+.header .form-search input{
+	padding: 5px;
+	height: 32px;
+	width: 100%;
+	border-width: 1px;
+
+}
+.header button{
+	height: 32px;
+	width: 48px;
+	padding: 5px;
+	background-color: #357ae8;
+	border-width: 0px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.header i{
+	color: #fff;
+	order: 100;
+}
+.header .login{
+	width: 100px;
+	text-align: right;
+}
+.header .login a{
+	text-decoration: none;
+	color: rgba(0,0,0,.87);
+	font-size: 14px;
+}

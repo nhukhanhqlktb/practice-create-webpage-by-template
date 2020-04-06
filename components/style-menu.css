@@ -1,8 +1,12 @@
+.main-menu {
+	overflow: hidden;
+}
 .navbar{
 	background-color: #58257b;
 	display: flex;
 	margin-bottom: 20px;
 	border-radius: 3px;
+	white-space: nowrap;
 }
 .item-subject{  
   padding: 6px 9px;
